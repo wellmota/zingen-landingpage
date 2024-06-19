@@ -31,6 +31,8 @@
   --fs-lg: 1.25rem;
   --fs-xl: 1.5rem;
   --fs-2xl: 2.5rem;
+
+  --px-lg: 1.5rem;
 }
 
 html {
@@ -71,7 +73,7 @@ a {
 }
 
 /* keep item as list to accessibility but remove bullets */
-ul[role="list"]{
+ul[role="list"] {
   list-style: none;
 }
 
@@ -80,5 +82,7 @@ ul[role="list"]{
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+    
+    --px-lg: 2rem;
   }
 }
