@@ -76,17 +76,26 @@ a {
   color: inherit;
 }
 
-a:hover{
-  background: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
+a:hover {
+  background: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%
+  );
 
   -webkit-background-clip: text;
-  background-clip:text;
-  color:transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 /* keep item as list to accessibility but remove bullets */
 ul[role="list"] {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media (width >= 80em) {
