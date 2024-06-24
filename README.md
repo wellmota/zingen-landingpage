@@ -14,6 +14,13 @@ This project is a study project focused on advanced CSS and HTML techniques, wit
 - HTML5
 - CSS3
 
+## Google Fonts
+
+The following Google Fonts were used in this project to enhance the typography:
+
+- [inter](https://fonts.google.com/specimen/inter)
+
+Feel free to explore these fonts and use them in your own projects!
 
 ## Getting Started
 
